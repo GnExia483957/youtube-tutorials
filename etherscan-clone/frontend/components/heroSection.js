@@ -117,7 +117,9 @@ export default function HeroSection() {
                 </section>
                 <section className={styles.hero_box}>
                   <p>MARKET CAP</p>
-                  <p className={styles.heroValues}>$415,471,132,394 USD</p>
+                  <p className={styles.heroValues}>
+                    ${(Number(ethPrice)*totalTransactions).toFixed(2)}
+                  </p>
                 </section>
               </section>
             </section>
