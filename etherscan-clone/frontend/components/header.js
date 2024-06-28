@@ -19,11 +19,11 @@ export default function Header() {
   return (
     <section className={styles.header}>
       <section className={styles.topHeader}>
-        ETH Price:{" "}
+        Trx Price:{" "}
         <span className={styles.blueText}>${Number(ethPrice).toFixed(2)}</span>
       </section>
       <section className={styles.navbar}>
-        <Image src={Logo} alt="Etherscan Logo" className={styles.logo} />
+        <Image src={Logo} alt="Tronscan Logo" className={styles.logo} />
         <section className={styles.menu}>
           <p>Home</p>
           <p>

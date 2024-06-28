@@ -55,7 +55,7 @@ export default function SearchResults(props) {
               <td className={styles.blueText}>
                 {txn.to_address.slice(0, 8)}...{txn.to_address.slice(34)}
               </td>
-              <td>{(txn.value / 10 ** 18).toFixed(5)} ETH</td>
+              <td>{(txn.value / 10 ** 18).toFixed(5)} TRX</td>
               <td>{(txn.gas_price / 10 ** 18).toFixed(12)}</td>
             </tr>
           );

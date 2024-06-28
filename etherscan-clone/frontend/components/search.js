@@ -30,7 +30,7 @@ export default function Search() {
     <section className={styles.searchContainer}>
       <section className={styles.searchHeader}>
         <section className={styles.searchSection}>
-          <h3>The Ethereum Blockchain Explorer</h3>
+          <h3>The Tron Blockchain Explorer</h3>
           <section className={styles.input_section}>
             <input
               className={styles.inputField}
@@ -62,13 +62,13 @@ export default function Search() {
             <span className={styles.bean}>
               <Bean fontSize="20px" />
             </span>{" "}
-            500 Daily Moralis Beans for free!
-            <span className={styles.claim}>Claim Them Now!</span>
+            No more Daily Moralis Beans for free!
+            <span className={styles.claim}>Expired</span>
           </section>
         </section>
         <section className={styles.adSection}>
           <p className={styles.adtext}>
-            500 Free <br />
+            No Free <br />
             Moralis Beans
           </p>
           <section>

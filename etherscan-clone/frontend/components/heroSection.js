@@ -104,7 +104,7 @@ export default function HeroSection() {
                   </svg>
                 </section>
                 <section className={styles.hero_box}>
-                  <p>ETHER PRICE</p>
+                  <p>TRX PRICE</p>
                   <p className={styles.heroValues}>
                     ${Number(ethPrice).toFixed(2)}
                   </p>
@@ -117,7 +117,7 @@ export default function HeroSection() {
                 </section>
                 <section className={styles.hero_box}>
                   <p>MARKET CAP</p>
-                  <p className={styles.heroValues}>$196,968,104,207.00</p>
+                  <p className={styles.heroValues}>$415,471,132,394 USD</p>
                 </section>
               </section>
             </section>
@@ -193,7 +193,7 @@ export default function HeroSection() {
                             </span>
                           </section>
                         </td>
-                        <td className={styles.tdValue}>{block.gasUsed} Eth</td>
+                        <td className={styles.tdValue}>{block.gasUsed} Trx</td>
                       </tr>
                     );
                   })}
@@ -249,7 +249,7 @@ export default function HeroSection() {
                           </section>
                         </td>
                         <td className={styles.tdValue}>
-                          {(Number(txn.value) / 10 ** 18).toFixed(4)} Eth
+                          {(Number(txn.value) / 10 ** 18).toFixed(4)} Trx
                         </td>
                       </tr>
                     );
