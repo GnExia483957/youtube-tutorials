@@ -24,6 +24,7 @@ export default function Search() {
 
     setResult(response.data.result);
     setShowResult(true);
+    console.log("hello world")
   };
 
   return (
